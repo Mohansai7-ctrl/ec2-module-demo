@@ -1,3 +1,5 @@
+#Its root module is terraform-aws-ec2
+
 module "ec2" {
     source = "../terraform-aws-ec2"
     #here ami_id is the variable expected by module, not the arguments(left side - ami) of resource definition
